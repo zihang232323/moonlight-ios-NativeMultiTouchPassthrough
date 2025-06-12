@@ -1,6 +1,7 @@
 name: Build IPAs
 
 on:
+workflow_dispatch:
   push:
     branches: [ "noWaterMark" ]
 
